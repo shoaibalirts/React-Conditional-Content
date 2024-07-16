@@ -1,8 +1,10 @@
-# React + Vite
+# React Conditional Content Assisgnment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>
+You're working on a part of a web app that's responsible for showing a warning when a user is about to perform a dangerous action.
 
-Currently, two official plugins are available:
+Therefore, your task is to conditionally show a warning box once a user has clicked a specific button. Inside that warning dialog, another button allows users to dismiss the warning (i.e., remove the warning box from the screen).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The finished app should display this UI, if the <button> has not been clicked yet:
+
+</p>
