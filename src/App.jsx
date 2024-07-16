@@ -19,7 +19,9 @@ function App() {
   return (
     <div>
       {warning}
-      <button onClick={handleClick}>Delete</button>
+      {showDialog === false ? (
+        <button onClick={handleClick}>Delete</button>
+      ) : null}
     </div>
   );
 }
